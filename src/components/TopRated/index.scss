@@ -1,0 +1,21 @@
+#rated{
+  .rated{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 51px;
+    padding: 70px 0 0 0;
+    .movie{
+      box-shadow: 5px 5px 10px #fd0000;
+      transition: .4s;
+      &:hover{
+        transform: scale(1.01);
+      }
+      img{}
+      &--block{
+     h3{}
+        p{}
+        span{}
+      }
+    }
+  }
+}
