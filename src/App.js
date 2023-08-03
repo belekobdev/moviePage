@@ -1,5 +1,5 @@
 import './App.scss';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {Route, Routes, json} from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -25,6 +25,7 @@ function App() {
       background: ser ? "black" : "white",
       color:ser ? "white" : "black",
       }}>
+        
       <Header ser={ser} Handle={Handle}/>
       <Routes>
           <Route path={"/"} element={<Home ser={ser} Beka={Handle}/>}/>
